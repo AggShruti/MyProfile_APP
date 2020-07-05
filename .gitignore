@@ -1,0 +1,7 @@
+./backend/setup
+./frontend/gui/node_modules
+./backend/env
+./backend/src/apis/migrations
+./backend/src/apis/__pychache__
+./backend/src/apis/profile/__pychache__
+./backend/src/mysite/__pychache__
