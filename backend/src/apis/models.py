@@ -2,7 +2,7 @@ from django.contrib.postgres.fields import JSONField
 from django.db import models
 
 
-
+#Two database models one for portfolio and other for comments
 class Portfolio(models.Model):
     name = models.CharField(max_length=120)
     education_qualification = models.TextField()
