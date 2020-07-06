@@ -9,3 +9,7 @@ virtualenv env
 source env/bin/activate
 #to deactivate
 deactivate
+
+#for postgress
+sudo apt-get install libpq-dev
+pip install psycopg2
