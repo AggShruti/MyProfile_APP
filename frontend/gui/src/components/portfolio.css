@@ -1,0 +1,107 @@
+.pic{
+    
+    height: 500px;
+    width:1800px;
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.commentbox{
+    display: block;
+    margin-left: 200px;
+    width: 1000px;
+     padding: 5px;
+    border:ridge;
+    border-radius: 5px;
+ }
+ .commentname{
+   font-weight: bold;
+   font-size:5mm;
+   color:blueviolet;
+ }
+ .submit{
+    display: block;
+    margin-left: 1100px;
+    width: 116px;
+     padding: 5px;
+    border:ridge;
+    border-radius: 5px;
+ }
+.block{
+   display: block;
+   margin-left: 200px;
+   width: 600px;
+    padding: 5px;
+   border:ridge;
+   border-radius: 5px;
+}
+.row{
+    display:flex;
+    padding: 10px;
+
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blockPortfolio1{
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    width: 200px;
+     padding: 10px;
+    border:ridge;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 0px 13px 10px gainsboro;
+    background-color:whitesmoke;
+ }
+.blockPortfolio{
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    width: 900px;
+     padding: 10px;
+    border:ridge;
+    border-radius: 5px;
+    z-index: -1;
+    box-shadow: 0px 13px 10px gainsboro;
+    background-color:whitesmoke;
+ }
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bold{
+    font-weight: bold;
+    font-size:6mm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .normal{
+   font-size:5mm;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  .mypic{
+    z-index: 1;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width:300px;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }

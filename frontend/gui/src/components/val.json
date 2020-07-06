@@ -1,0 +1,14 @@
+{
+    "Project1":{
+      "Title":"Application for Software Monitoring",
+    "Description":"Single handedly created a graph-based application which identifies issue in the software with the help of parsing known issues by monitoring logs of the application. Implemented APIs for logging purposes and also to load required information. Automated the whole process end to end. Tech Stack: Node Js, MongoDB"
+    },
+    "Project2":{
+    "Title":"Scan as you Shop service",
+    "Description":"Developed an application using Java Spring Boot to establish the communication between backend APIs and userinterface. Tech Stack: Java Spring Boot"
+    },
+    "Project3":{
+    "Title":"Desktop Streaming Application",
+    "Description":"Worked on UI and on proxy server of the application which provides remote access capability. Implemented in python and quickly adapted to Node Js to recreate the code for final integration using Node Js. Performed benchmarking of the application for network connections using Wireshark. Tech Stack: Node Js, Python, React Js"
+    }
+    }

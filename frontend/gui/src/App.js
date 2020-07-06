@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './image.css'
-import ArticleList from './components/Articles.js';
+import Portfolioreviews from './portfolioReview/portfolioreview.js';
 
 //import Layout from './containers/Layout';
 
@@ -10,7 +10,7 @@ class App extends Component {
     return (
    
         <div  >
-        <ArticleList />
+        <Portfolioreviews />
         </div >
     );
   }
