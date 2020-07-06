@@ -5,3 +5,5 @@
 ./backend/src/apis/__pychache__
 ./backend/src/apis/profile/__pychache__
 ./backend/src/mysite/__pychache__
+./backend/.vscode
+./backend/src/db.sqlite3

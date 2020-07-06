@@ -65,7 +65,7 @@ const Profile = (props)=>{
         <div>
             <div className="bold" >
                 Languages: 
-            </div >
+            </div>
             <div className="normal">
             {data["tech_stack"]["Languages"][0]}, {data["tech_stack"]["Languages"][1]}, {data["tech_stack"]["Languages"][2]}
             </div>
