@@ -31,9 +31,26 @@ postdata = (text) =>
                 });
                 console.log(res.data);
             })
-
-
-  })
+            .catch(err=>{
+                if (err.response) {
+                    // client received an error response (5xx, 4xx)
+                    console.log(err.response);
+                  } else if (err.request) {
+                    // client never received a response, or request never left
+                    console.log("No response for "+err.request+ ", may be it never reached the server");
+                  } else {
+                    console.log(err);
+                  }})
+            })
+        .catch(err=>{
+    if (err.response) {
+        console.log(err.response);
+      } else if (err.request) {
+        console.log("No response for "+err.request+ ", may be it never reached the server");
+      } else {
+        console.log(err);
+      }})
+  
 }
 
 
@@ -46,6 +63,14 @@ postdata = (text) =>
                 });
                 console.log(res.data);
             })
+            .catch(err=>{
+                if (err.response) {
+                    console.log(err.response);
+                  } else if (err.request) {
+                    console.log("No response for "+err.request+ ", may be it never reached the server");
+                  } else {
+                    console.log(err);
+                  }})
 
             axios.get('http://127.0.0.1:8000/comments/')
             .then(res=>{
@@ -54,6 +79,14 @@ postdata = (text) =>
                 });
                 console.log(res.data);
             })
+            .catch(err=>{
+                if (err.response) {
+                    console.log(err.response);
+                  } else if (err.request) {
+                    console.log("No response for "+err.request+ ", may be it never reached the server");
+                  } else {
+                    console.log(err);
+                  }})
     }
     render(){
         return (
